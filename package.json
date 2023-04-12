@@ -10,15 +10,18 @@
     "lint": "eslint . --ext .ts,.tsx"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.0.1",
     "@types/styled-components": "^5.1.26",
     "components": "^0.1.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.41.5",
     "react-router-dom": "^6.6.1",
     "src": "^1.1.2",
     "styled": "^1.0.0",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.6",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^1.1.3",

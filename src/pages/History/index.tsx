@@ -1,11 +1,11 @@
-import { HistoryContainer, HistoryList, Status } from './styles'
+import * as S from './styles'
 
 export function History() {
   return (
-    <HistoryContainer>
+    <S.HistoryContainer>
       <h1>Meu histórico</h1>
 
-      <HistoryList>
+      <S.HistoryList>
         <table>
           <thead>
             <tr>
@@ -20,35 +20,35 @@ export function History() {
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há 2 meses</td>
-              <Status statusColor="green">Concluído</Status>
+              <S.Status statusColor="green">Concluído</S.Status>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há 2 meses</td>
-              <Status statusColor="green">Concluído</Status>
+              <S.Status statusColor="green">Concluído</S.Status>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há 2 meses</td>
-              <Status statusColor="green">Concluído</Status>
+              <S.Status statusColor="green">Concluído</S.Status>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há 2 meses</td>
-              <Status statusColor="yellow">Em andamento</Status>
+              <S.Status statusColor="yellow">Em andamento</S.Status>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há 2 meses</td>
-              <Status statusColor="red">Interrompido</Status>
+              <S.Status statusColor="red">Interrompido</S.Status>
             </tr>
           </tbody>
         </table>
-      </HistoryList>
-    </HistoryContainer>
+      </S.HistoryList>
+    </S.HistoryContainer>
   )
 }
