@@ -40,10 +40,12 @@ const BaseInput = styled.input`
   &:focus {
     box-shadow: none;
     border-color: ${(props) => props.theme['green-500']};
+    background: transparent;
   }
 
   &::placeholder {
     color: ${(props) => props.theme['gray-500']};
+    background: transparent;
   }
 `
 
